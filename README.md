@@ -18,4 +18,4 @@ Refresh power: 26.4mW(typ.)
 Standby power: <0.017mW
 Viewing angle: >170
 
-![esp8266-eink](https://europe1.discourse-cdn.com/arduino/original/4X/3/6/9/369152904c7b0ae22f573feb233aed078e7d5d0e.jpeg)
+
