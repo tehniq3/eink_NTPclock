@@ -3,7 +3,13 @@ based on https://github.com/ZinggJM/GxEPD library
 
 info about display: https://www.waveshare.com/2.9inch-e-paper-module.htm
 
-// eink->ESP8266: SS=15->D8,SCL(SCK)=14->D5,SDA(MOSI)=13->D7,BUSY=16->D0,RST=5->D1,DC=4->D2
+// eink->ESP8266:
+- SS(CS) = GPIO15->D8,
+- SCL(SCK) = GPIO14->D5,
+- SDA(DIN,MOSI) = GPIO13->D7,
+- BUSY = GPIO16->D0,
+- RST = GPIO5->D1,
+- DC = GPIO4->D2
 // https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/
 
 
