@@ -16,6 +16,6 @@ Partial refresh time: 0.3s
 Full refresh time: 2s
 Refresh power: 26.4mW(typ.)
 Standby power: <0.017mW
-Viewing angle: >170
+Viewing angle: >170°
 
 
