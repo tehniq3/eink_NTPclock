@@ -1,6 +1,8 @@
 # eink_NTPclock
 based on https://github.com/ZinggJM/GxEPD library
 
+my artile: https://nicuflorica.blogspot.com/2023/05/ceas-ntp-pe-afisaj-e-ink-de-29.html
+
 info about display: https://www.waveshare.com/2.9inch-e-paper-module.htm
 
 // eink->ESP8266:
@@ -29,4 +31,6 @@ info about display: https://www.waveshare.com/2.9inch-e-paper-module.htm
 - Standby power: <0.017mW
 - Viewing angle: >170°
 
+![clock](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_pDQTesVZGvGNLALiFsD45U4zjP5oOCPKUkN2QrzHQtvOI9tD0JkwJIRYINIPZOqHAiyPPYiKOrY8ITVnaxOTezFss728iY0ZM-9ewCMRjVoaS1Lu-STTKU2vgnfDZDeKMyNNBqUQKpyUQeyO6I5e9Eq3TfCuzuyZ8eUAMk61PO1MOFkRyjddWCz2rQ/w200-h150/NTP_clock_eink_V2_1b_info.jpg)
 
+![schematic](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6abTY_4yMitfW19afjoGDTavqp4buFCAC4_jNCAqhKK2_CeYPikFkODVbY3J6hZVI3F8lYVS15LzE6qGS-MP1xtphbj0p2CxRArHmb5xT6a180S1c5Lw_e3Xi7ShZK_p8xfy22TRTktAiV1zL_UDFTLpcc4Hn9jnm23bwyN-cNFf8NYF59z2uQ9BbQQ/w400-h146/NTP_clock_eink_sch_v1.png)
