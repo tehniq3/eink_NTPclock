@@ -7,6 +7,7 @@
  * v.2c - return to landscape view, use 
  * ver.2c1 - use hibernate function from display ibrary
  * ver.2c2 - added signal for alive/sleep mode
+ * ver.2c3 - variable sleep time
 */
 
 #include <ESP8266WiFi.h>
@@ -154,6 +155,7 @@ if (minut != minut0)
 //cnt++;
 //delay(10000);
 */
+delay(1000);
  display.hibernate();
 Serial.println("Sleep !");
 /*
@@ -166,8 +168,9 @@ display.setCursor(250, 80);
   while (display.nextPage());
   */
 ceas_off();
- delay(55000);
+ delay((59-secundar)*1000);
  ceas_on();
+ //delay(1000);
 Serial.println("Alive !");
 /*
 display.firstPage();
@@ -369,7 +372,7 @@ void intro()
   {
     display.fillScreen(GxEPD_WHITE);
     display.println(" ");
-    display.println("  NTP clock v.1.2c2 with ");
+    display.println("  NTP clock v.1.2c3 with ");
     display.println("    ESP8266 on  2.9-inch ");
     display.println("       e-paper display   ");   
     display.println("          by niq_ro      ");
